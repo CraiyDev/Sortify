@@ -25,7 +25,6 @@ The match object currently supports 4 types of parameters. Each of these is opti
 Matching a range of different image files
 ```json
 [
-    
     {
         "match": {
             "ext": ["bmp", "dds", "gif", "heic", "jpg", "jpeg", "png", "pspimage", "tga", "thm", "tif", "tiff", "yuv", "webp"]
@@ -37,7 +36,6 @@ Matching a range of different image files
 Matching all files and directories which start with "abc"
 ```json
 [
-    
     {
         "match": {
             "regex": "abc"
