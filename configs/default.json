@@ -1,0 +1,88 @@
+[
+    {
+        "match": {
+            "ext": ["bmp", "dds", "gif", "heic", "jpg", "jpeg", "png", "pspimage", "tga", "thm", "tif", "tiff", "yuv", "webp"]
+        },
+        "dest": "C:\\Users\\Manu\\Images"
+    },
+	{
+        "match": {
+            "ext": ["ico"]
+        },
+        "dest": "C:\\Users\\Manu\\Images\\Icons"
+    },
+    {
+        "match": {
+            "ext": ["txt", "db", "json", "log","cfg","conf"]
+        },
+        "dest": "C:\\Users\\Manu\\Documents"
+    },
+    {
+        "match": {
+            "ext": ["zip", "7z", "gz"]
+        },
+        "dest": "C:\\Users\\Manu\\Documents\\Archives"
+    },
+    {
+        "match": {
+            "ext": ["obj", "vox", "mtl", "blend", "blend1"]
+        },
+        "dest": "C:\\Users\\Manu\\3D Objects"
+    },
+    {
+        "match": {
+            "ext": ["py", "cs", "c", "cpp"]
+        },
+        "dest": "C:\\Users\\Manu\\Documents\\Scripts"
+    },
+    {
+        "match": {
+            "ext": ["ppt", "pptx"]
+        },
+        "dest": "C:\\Users\\Manu\\Documents\\Powerpoint"
+    },
+    {
+        "match": {
+            "ext": ["xls", "xlsx"]
+        },
+        "dest": "C:\\Users\\Manu\\Documents\\Excel"
+    },
+    {
+        "match": {
+            "ext": ["pdf"]
+        },
+        "dest": "C:\\Users\\Manu\\Documents\\Pdf"
+    },
+    {
+        "match": {
+            "ext": ["doc", "docx"]
+        },
+        "dest": "C:\\Users\\Manu\\Documents\\Word"
+    },
+    {
+        "match": {
+            "ext": ["psd", "xcf"]
+        },
+        "dest": "C:\\Users\\Manu\\Images\\Projects"
+    },
+    {
+        "match": {
+            "ext": ["3g2", "webm", "3gp", "asf", "avi", "flv", "m4v", "mov", "mp4", "mpg", "rm", "srt", "swf", "vob", "wmv"]
+        },
+        "dest": "C:\\Users\\Manu\\Videos"
+    },
+    {
+        "match": {
+            "ext": ["aif", "iff", "m3u", "m4a", "mid", "mp3", "mpa", "wav", "wma", "ogg"]
+        },
+        "dest": "C:\\Users\\Manu\\Music"
+    },
+    {
+        "match": {
+            "contains": {
+                "ext": ["py"]
+            }
+        },
+        "dest": "C:\\Users\\Manu\\Projects"
+    }
+]
