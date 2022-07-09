@@ -1,10 +1,12 @@
 # Sortify - A file and directory sorting script
-Sortify is a simple script to keep the computer organized. It uses customizable json config files to sort the files by the users wishes. And writes a log file to keep track of them.
+Sortify is a simple script to keep the computer organized. It uses customizable json config files to sort the files by the users wishes and writes a log file to keep track of them.
 
 ## Usage
 Sortify can be used via the command line. Simply run `python sortify <name-of-config> <log>`
 - The `<name-of-config>` parameter will tell the program which config to use. Configs must be placed in the config folder of the program and the parameter does NOT need the file extension. The parameter is optional and is normally set to "default".
 - The `<log>` parameter defines whether to write a log file `1 = true`, `0 = false`. This parameter is optional and will be 1 by default 
+
+If the target path already exists, the script will rename it by the windows standard i.e. New File (2), New File (3)...
 
 ## Configuration
 ### Basics
