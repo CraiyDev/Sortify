@@ -1,4 +1,4 @@
-# Sortify - A file and directory sorting script
+# ![Sortify](https://craiy.net/resources/sortify.png) Sortify - A file and directory sorting script
 Sortify is a simple script to keep the computer organized. It uses customizable json config files to sort the files by the users wishes and writes a log file to keep track of them.
 
 ## Usage
