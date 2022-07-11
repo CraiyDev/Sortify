@@ -12,7 +12,7 @@ If the target path already exists, the script will rename it by the windows stan
 ### Basics
 The config file is based on a list of objects which contain to attributes at the top layer
 - `match` is an object which defines the matching rules
-- `dest` will set the destination path for the matches items. Additionally the match string can contain the placeholder {user} which will be replaces by the current user path
+- `dest` will set the destination path for the matched items. Additionally the match string can contain the placeholder {user} which will be replaced by the current user path
 
 ### Matching files
 The match object currently supports 4 types of parameters. Each of these is optional and can also be used together to match only items which apply to multiple parameters
